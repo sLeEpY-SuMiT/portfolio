@@ -1,6 +1,5 @@
 "use client" // this is a client component
-import React from "react"
-import { useState } from "react"
+import React, { useState } from "react"
 import { Link } from "react-scroll/modules"
 import { usePathname } from "next/navigation"
 import { useTheme } from "next-themes"
@@ -12,8 +11,6 @@ interface NavItem {
   label: string
   page: string
 }
-
-const Origin = window.location.origin
 
 const NAV_ITEMS: Array<NavItem> = [
   {
@@ -30,7 +27,7 @@ const NAV_ITEMS: Array<NavItem> = [
   },
   {
     label: "CV",
-    page: `${Origin}/Sumit's%20Resume.pdf`,
+    page: `${window.location.origin}/Sumit's%20Resume.pdf`,
   },
   {
     label: "Get in touch",

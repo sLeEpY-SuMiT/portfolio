@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
+    basePath: '',
+    assetPrefix: '/Portfolio/',
+    distDir:'build',
 }
 
 module.exports = nextConfig

@@ -44,14 +44,6 @@ const projects = [
     github: "",
     link: "https://payments.bumppy.com/",
   },
-  // {
-  //   name: "Kator Family Photos",
-  //   description:
-  //     "Kator Family Photos is a photos and video digitization service in the LA area.",
-  //   image: "/MultiFoodWeb.png",
-  //   github: "https://github.com/hqasmei/katorfamilyphotos",
-  //   link: "https://katorfamilyphotos.com/",
-  // },
 ]
 
 const ProjectsSection = () => {
@@ -85,14 +77,14 @@ const ProjectsSection = () => {
                       {project.description}
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
-                    {project.github &&
-                      <Link href={project.github} target="_blank">
-                        <BsGithub
-                          size={30}
-                          className="hover:-translate-y-1 transition-transform cursor-pointer"
-                        />
-                      </Link>
-        }
+                      {project.github &&
+                        <Link href={project.github} target="_blank">
+                          <BsGithub
+                            size={30}
+                            className="hover:-translate-y-1 transition-transform cursor-pointer"
+                          />
+                        </Link>
+                      }
                       <Link href={project.link} target="_blank">
                         <BsArrowUpRightSquare
                           size={30}
@@ -106,7 +98,7 @@ const ProjectsSection = () => {
             </div>
           )
         })}
-        
+
       </div>
     </section>
   )
