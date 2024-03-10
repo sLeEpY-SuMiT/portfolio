@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swal2-title{
+    text-align: left;
+    color: #0D9488;
+}
+.swal2-html-container{
+    display: flex !important;
+}
+
+.swal2-cancel{
+    position: relative !important;
+    background-color: #0D9488 !important;
+    left:200px;
+}
