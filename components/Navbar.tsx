@@ -27,7 +27,7 @@ const NAV_ITEMS: Array<NavItem> = [
   },
   {
     label: "CV",
-    page: `${window.location.origin}/Sumit's%20Resume.pdf`,
+    page: `https://sleepy-sumit.github.io/Portfolio/Sumit's%20Resume.pdf`,
   },
   {
     label: "Get in touch",
