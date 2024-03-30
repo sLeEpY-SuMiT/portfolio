@@ -35,6 +35,7 @@ const HeroSection = () => {
             smooth={true}
             offset={-100}
             duration={500}
+            style={{cursor:'pointer'}}
           >
             Projects
           </Link>
