@@ -19,9 +19,10 @@ export default function Home() {
       </Head>
       <body className="dark:bg-stone-900">
         <ThemeProvider enableSystem={true} attribute="class">
+        <Navbar />
           <main className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl ">
 
-            <Navbar />
+            
             <HeroSection />
             <AboutSection />
             <ProjectsSection />
