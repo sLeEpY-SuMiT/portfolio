@@ -5,6 +5,7 @@ import Head from "next/head"
 import { ThemeProvider } from "next-themes"
 import Navbar from "@/components/Navbar"
 import Footer from "@/components/Footer"
+import 'tailwindcss/tailwind.css';
 export default function Home() {
   return (
     <>
