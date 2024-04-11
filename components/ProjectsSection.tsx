@@ -9,14 +9,14 @@ const projects = [
     name: "Payments Dashboard",
     description:
       "Payments Dashboard is a web app that generates analytics of payment data and transactions between Distributor, retailer and consumer.",
-    image: "/PaymentsDashboard.png",
+    image: "PaymentsDashboard.png",
     github: "",
     link: "https://dashboard.paynnow.com/",
   },
   {
     name: "Food Restaurant Web (Single Merchant)",
     description: "It is a single merchant food website for restaurant for seamless online food ordering business",
-    image: "/FoodWeb.png",
+    image: "FoodWeb.png",
     github: "",
     link: "https://chawlabakery.chaafo.com/",
   },
@@ -24,7 +24,7 @@ const projects = [
     name: "Food Restaurant Web (Multi Merchant)",
     description:
       "It is a multi merchant food website for restaurants having cloud kitchen or multiple restaurants",
-    image: "/MultiFoodWeb.png",
+    image: "MultiFoodWeb.png",
     github: "",
     link: "https://eatfactory.chaafo.com/",
   },
@@ -32,7 +32,7 @@ const projects = [
     name: "Flights (Travel)",
     description:
       "Streamlined flight booking platform offering seamless travel planning and competitive deals.",
-    image: "/FlightsWeb.png",
+    image: "FlightsWeb.png",
     github: "",
     link: "https://flights.bumppy.com/",
   },
@@ -40,7 +40,7 @@ const projects = [
     name: "Payments Platform",
     description:
       "Efficient payments platform facilitating seamless transactions between distributors, retailers and consumer, optimizing business operations",
-    image: "/PaymentsWeb.png",
+    image: "PaymentsWeb.png",
     github: "",
     link: "https://payments.bumppy.com/",
   },
