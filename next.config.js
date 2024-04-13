@@ -6,6 +6,5 @@ module.exports = {
   },
   images: {
     unoptimized:true // Add the domains for your image sources
-  },
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/portfolio/' : '/', // Set the assetPrefix for GitHub Pages deployment
+  }, // Set the assetPrefix for GitHub Pages deployment
 };
