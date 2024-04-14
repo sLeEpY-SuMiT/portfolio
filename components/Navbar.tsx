@@ -111,7 +111,7 @@ TEL;WORK;VOICE:+91 8700601581
 TEL;CELL:Mobile
 TEL;FAX:
 EMAIL;WORK;INTERNET:sumitvermacr7@gmail.com
-URL:http://website.com
+URL:https://sleepy-sumit.github.io/portfolio/
 END:VCARD`
                         GetInTouch(Mycard)
                       }
