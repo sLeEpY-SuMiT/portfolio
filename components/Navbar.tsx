@@ -99,7 +99,7 @@ export default function Navbar() {
                       setNavbar(!navbar);
                       if (item.page.startsWith("http")) {
                         window.open(item.page, "_blank");
-                      } else if (item.page === '#') {
+                      } else if (item.page == '#') {
                         const Mycard = `BEGIN:VCARD
 VERSION:3.0
 N:Verma;Sumit
